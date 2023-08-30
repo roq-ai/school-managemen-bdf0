@@ -1,0 +1,2572 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "4d4ff4d3-e663-41c2-9d66-be485208d3d8",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-29T15:51:43.648Z",
+        "updated_at": "2023-08-30T08:46:54.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "126b9ee7-f0d6-4e68-adc1-858dc528b00c",
+        "subject": "English",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-30T03:39:39.235Z",
+        "updated_at": "2023-08-30T01:19:50.348Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c22b5e78-e82c-44d7-82b4-13f13447dc66",
+        "subject": "Science",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-30T07:34:46.400Z",
+        "updated_at": "2023-08-29T14:13:59.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c08a23-2b41-4b0a-b840-8cbbac522390",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-29T15:18:00.870Z",
+        "updated_at": "2023-08-29T20:37:45.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79db7b13-4f1a-473f-994d-f967a8e96fac",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T22:40:24.885Z",
+        "updated_at": "2023-08-30T00:16:29.503Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "8ffaf492-b231-4eec-b412-330f491f2e8d",
+        "year": 31085,
+        "start_date": "2023-08-30T08:33:12.499Z",
+        "end_date": "2023-08-30T04:43:02.198Z",
+        "created_at": "2023-08-30T09:03:26.464Z",
+        "updated_at": "2023-08-30T03:23:22.663Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48f2e0d5-f463-4053-97cb-7d41b8204fe0",
+        "year": 34371,
+        "start_date": "2023-08-29T11:24:13.328Z",
+        "end_date": "2023-08-29T21:03:28.715Z",
+        "created_at": "2023-08-29T23:50:29.547Z",
+        "updated_at": "2023-08-30T07:40:02.313Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a67567b7-f685-40ef-895b-0217b8f366e7",
+        "year": 45888,
+        "start_date": "2023-08-29T21:30:49.394Z",
+        "end_date": "2023-08-30T03:49:33.108Z",
+        "created_at": "2023-08-30T00:13:11.745Z",
+        "updated_at": "2023-08-30T02:16:40.369Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dfdad45b-b794-42ca-806d-c8a36f24a0eb",
+        "year": 12260,
+        "start_date": "2023-08-30T07:36:58.054Z",
+        "end_date": "2023-08-29T14:17:44.421Z",
+        "created_at": "2023-08-29T14:56:15.193Z",
+        "updated_at": "2023-08-30T03:59:55.292Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e12ffbc1-4e1b-47f4-8770-0190bd959657",
+        "year": 8694,
+        "start_date": "2023-08-29T18:04:55.378Z",
+        "end_date": "2023-08-30T07:13:08.953Z",
+        "created_at": "2023-08-29T14:16:29.986Z",
+        "updated_at": "2023-08-30T05:47:17.511Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "dae2c193-6597-4a8a-856d-6bc4660c7233",
+        "class": "Grade 1",
+        "section": "Section A",
+        "fees": 74120,
+        "transport_details": "Bus",
+        "created_at": "2023-08-29T22:05:56.832Z",
+        "updated_at": "2023-08-29T20:53:00.189Z",
+        "academic_year_id": "e12ffbc1-4e1b-47f4-8770-0190bd959657",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e8fe089-3e58-43d7-ac70-c1eb33031ce6",
+        "class": "Grade 2",
+        "section": "Section B",
+        "fees": 49096,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T23:31:52.370Z",
+        "updated_at": "2023-08-30T01:16:54.516Z",
+        "academic_year_id": "e12ffbc1-4e1b-47f4-8770-0190bd959657",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e59d4c4-2cd7-4938-b96a-2067c9af7348",
+        "class": "Grade 3",
+        "section": "Section C",
+        "fees": 43551,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-29T16:18:04.683Z",
+        "updated_at": "2023-08-29T23:19:01.962Z",
+        "academic_year_id": "a67567b7-f685-40ef-895b-0217b8f366e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84c59d96-b75d-434a-ab8a-a2188b941ec3",
+        "class": "Grade 4",
+        "section": "Section D",
+        "fees": 61029,
+        "transport_details": "Walk",
+        "created_at": "2023-08-29T10:18:24.088Z",
+        "updated_at": "2023-08-29T13:00:24.670Z",
+        "academic_year_id": "e12ffbc1-4e1b-47f4-8770-0190bd959657",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "367aebfd-cc0b-4d84-a15a-95be9de55897",
+        "class": "Grade 5",
+        "section": "Section E",
+        "fees": 90856,
+        "transport_details": "Train",
+        "created_at": "2023-08-29T12:00:24.128Z",
+        "updated_at": "2023-08-29T18:55:37.661Z",
+        "academic_year_id": "8ffaf492-b231-4eec-b412-330f491f2e8d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "7d588685-56b8-4dcc-a933-21a3abcb83fd",
+        "day_of_week": 10106,
+        "start_time": "2023-08-29T10:33:28.554Z",
+        "end_time": "2023-08-29T12:16:44.582Z",
+        "class": "Class A",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T14:52:28.500Z",
+        "updated_at": "2023-08-29T21:42:24.509Z",
+        "student_id": "84c59d96-b75d-434a-ab8a-a2188b941ec3",
+        "teacher_id": "126b9ee7-f0d6-4e68-adc1-858dc528b00c"
+      },
+      {
+        "id": "56313d8d-ebe8-4834-8ec2-cba287e61e86",
+        "day_of_week": 42193,
+        "start_time": "2023-08-29T21:21:23.039Z",
+        "end_time": "2023-08-29T13:16:39.837Z",
+        "class": "Class B",
+        "subject": "English",
+        "created_at": "2023-08-29T10:21:50.465Z",
+        "updated_at": "2023-08-30T06:02:17.699Z",
+        "student_id": "dae2c193-6597-4a8a-856d-6bc4660c7233",
+        "teacher_id": "4d4ff4d3-e663-41c2-9d66-be485208d3d8"
+      },
+      {
+        "id": "4525fe6b-a14f-43dd-894e-3792abcd8a78",
+        "day_of_week": 1549,
+        "start_time": "2023-08-30T03:45:44.811Z",
+        "end_time": "2023-08-29T15:37:32.262Z",
+        "class": "Class C",
+        "subject": "Science",
+        "created_at": "2023-08-29T15:59:27.411Z",
+        "updated_at": "2023-08-29T15:50:11.242Z",
+        "student_id": "0e59d4c4-2cd7-4938-b96a-2067c9af7348",
+        "teacher_id": "4d4ff4d3-e663-41c2-9d66-be485208d3d8"
+      },
+      {
+        "id": "2a92c22e-0b25-41ce-8050-e1b8ea0920ac",
+        "day_of_week": 20714,
+        "start_time": "2023-08-30T04:20:11.835Z",
+        "end_time": "2023-08-29T19:49:31.275Z",
+        "class": "Class D",
+        "subject": "History",
+        "created_at": "2023-08-29T15:59:40.928Z",
+        "updated_at": "2023-08-29T18:48:34.667Z",
+        "student_id": "84c59d96-b75d-434a-ab8a-a2188b941ec3",
+        "teacher_id": "c22b5e78-e82c-44d7-82b4-13f13447dc66"
+      },
+      {
+        "id": "30fc4a8c-80cd-40dd-8416-15afc96d16d8",
+        "day_of_week": 57522,
+        "start_time": "2023-08-29T22:28:37.526Z",
+        "end_time": "2023-08-29T09:19:24.471Z",
+        "class": "Class E",
+        "subject": "Geography",
+        "created_at": "2023-08-29T23:12:48.604Z",
+        "updated_at": "2023-08-30T00:18:00.809Z",
+        "student_id": "dae2c193-6597-4a8a-856d-6bc4660c7233",
+        "teacher_id": "126b9ee7-f0d6-4e68-adc1-858dc528b00c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b0a29817-f5fa-413b-98c7-fcf7760f40ff",
+        "email": "Nathanael71@yahoo.com",
+        "firstName": "Adrienne",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/285.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d22bdcd8-2e3c-45a4-bda1-ca8327cf67e8",
+        "email": "Mckenzie9@gmail.com",
+        "firstName": "Timothy",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79418404",
+        "tenantId": null
+      },
+      {
+        "reference": "6c11a9f4-4557-41f9-80b5-d95b57405dbc",
+        "email": "Candice_Cartwright@gmail.com",
+        "firstName": "Spencer",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71974623",
+        "tenantId": null
+      },
+      {
+        "reference": "70a63fe0-e93e-48c8-920f-e3ef8cc71c77",
+        "email": "Bernie.Hettinger93@hotmail.com",
+        "firstName": "Gus",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2460453",
+        "tenantId": null
+      },
+      {
+        "reference": "3d2c1b0e-7671-4e2b-927e-23dbfe5605d7",
+        "email": "Margarette_Hickle@yahoo.com",
+        "firstName": "Berneice",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/436.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "b2b49dc3-d815-4230-8dff-0b1c80fa4501",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-30T07:54:37.684Z",
+        "updated_at": "2023-08-30T09:05:43.491Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68d14014-c336-43ed-8564-0343c40fe279",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-29T16:50:59.832Z",
+        "updated_at": "2023-08-29T17:28:42.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50150ef5-00b6-4f8d-87d8-dfbaf2951945",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T22:29:07.498Z",
+        "updated_at": "2023-08-30T08:04:14.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3fba9c7-39c5-49d6-9865-12e58db092a4",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-29T11:05:19.312Z",
+        "updated_at": "2023-08-29T14:22:14.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37bc3cc5-b57f-4df3-903f-e70785dce555",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T21:15:59.481Z",
+        "updated_at": "2023-08-30T05:33:07.994Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "80339f55-a6f3-41b8-93b7-1320087a903a",
+        "year": 87607,
+        "start_date": "2023-08-29T09:41:43.439Z",
+        "end_date": "2023-08-29T11:59:01.543Z",
+        "created_at": "2023-08-30T01:32:29.463Z",
+        "updated_at": "2023-08-29T17:23:53.852Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82760bba-6a32-4850-8269-2435810fdb2a",
+        "year": 12711,
+        "start_date": "2023-08-29T19:35:10.758Z",
+        "end_date": "2023-08-29T16:34:19.900Z",
+        "created_at": "2023-08-29T09:56:26.444Z",
+        "updated_at": "2023-08-30T03:38:41.510Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bff6129b-aa63-4e16-bffa-4f67b5869fad",
+        "year": 25912,
+        "start_date": "2023-08-30T03:08:05.729Z",
+        "end_date": "2023-08-29T19:43:45.326Z",
+        "created_at": "2023-08-30T06:27:03.877Z",
+        "updated_at": "2023-08-29T22:21:59.591Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "de869561-70eb-453b-a042-89e813dc0188",
+        "year": 78536,
+        "start_date": "2023-08-30T05:59:48.177Z",
+        "end_date": "2023-08-29T11:00:37.616Z",
+        "created_at": "2023-08-30T04:15:39.028Z",
+        "updated_at": "2023-08-29T14:47:46.151Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d779c6e0-d499-407c-9fdb-002d9bbe0fce",
+        "year": 75204,
+        "start_date": "2023-08-29T18:57:40.241Z",
+        "end_date": "2023-08-30T02:28:37.319Z",
+        "created_at": "2023-08-29T09:22:35.094Z",
+        "updated_at": "2023-08-30T08:33:56.564Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "30c638a9-bd00-4108-892b-0d08fba83f59",
+        "class": "Grade 1",
+        "section": "A",
+        "fees": 10149,
+        "transport_details": "Bus",
+        "created_at": "2023-08-29T10:46:32.888Z",
+        "updated_at": "2023-08-29T15:00:59.891Z",
+        "academic_year_id": "82760bba-6a32-4850-8269-2435810fdb2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a1a181e-f278-4cd4-a05e-9a4e94b9a9d1",
+        "class": "Grade 2",
+        "section": "B",
+        "fees": 34315,
+        "transport_details": "Car",
+        "created_at": "2023-08-30T09:10:59.389Z",
+        "updated_at": "2023-08-29T21:54:35.021Z",
+        "academic_year_id": "d779c6e0-d499-407c-9fdb-002d9bbe0fce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9540eb82-92db-475a-999c-74d3fcd404a5",
+        "class": "Grade 3",
+        "section": "C",
+        "fees": 73850,
+        "transport_details": "Walk",
+        "created_at": "2023-08-29T16:56:49.382Z",
+        "updated_at": "2023-08-29T21:40:19.552Z",
+        "academic_year_id": "bff6129b-aa63-4e16-bffa-4f67b5869fad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4fb9eb7-9f46-4f3f-92fc-258311eb7c68",
+        "class": "Grade 4",
+        "section": "D",
+        "fees": 16754,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-29T11:42:43.738Z",
+        "updated_at": "2023-08-30T06:47:12.878Z",
+        "academic_year_id": "de869561-70eb-453b-a042-89e813dc0188",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bd5062e-53ca-4215-a401-c1c21bf34428",
+        "class": "Grade 5",
+        "section": "E",
+        "fees": 49026,
+        "transport_details": "Public Transportation",
+        "created_at": "2023-08-29T14:50:28.343Z",
+        "updated_at": "2023-08-30T08:52:20.549Z",
+        "academic_year_id": "d779c6e0-d499-407c-9fdb-002d9bbe0fce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "8abf31dd-0d0e-4ed9-a515-8d414738042d",
+        "day_of_week": 27709,
+        "start_time": "2023-08-29T20:48:53.309Z",
+        "end_time": "2023-08-29T15:00:21.883Z",
+        "class": "Mathematics",
+        "subject": "Class A",
+        "created_at": "2023-08-29T10:23:03.604Z",
+        "updated_at": "2023-08-29T23:59:32.332Z",
+        "student_id": "9540eb82-92db-475a-999c-74d3fcd404a5",
+        "teacher_id": "68d14014-c336-43ed-8564-0343c40fe279"
+      },
+      {
+        "id": "0dc7f4cb-f966-4fe4-8374-d6c8f0d6a657",
+        "day_of_week": 61509,
+        "start_time": "2023-08-30T05:03:29.204Z",
+        "end_time": "2023-08-29T22:45:58.921Z",
+        "class": "Science",
+        "subject": "Class B",
+        "created_at": "2023-08-29T11:17:01.686Z",
+        "updated_at": "2023-08-29T15:57:14.536Z",
+        "student_id": "f4fb9eb7-9f46-4f3f-92fc-258311eb7c68",
+        "teacher_id": "a3fba9c7-39c5-49d6-9865-12e58db092a4"
+      },
+      {
+        "id": "2c1dd8bd-380b-42c5-9ed6-b19e138f7323",
+        "day_of_week": 9535,
+        "start_time": "2023-08-29T22:24:02.410Z",
+        "end_time": "2023-08-30T07:26:31.516Z",
+        "class": "English",
+        "subject": "Class C",
+        "created_at": "2023-08-30T03:39:04.339Z",
+        "updated_at": "2023-08-29T09:55:29.322Z",
+        "student_id": "7bd5062e-53ca-4215-a401-c1c21bf34428",
+        "teacher_id": "68d14014-c336-43ed-8564-0343c40fe279"
+      },
+      {
+        "id": "17628c39-95d0-4f7c-af8e-77bb167fe342",
+        "day_of_week": 49441,
+        "start_time": "2023-08-29T12:06:34.658Z",
+        "end_time": "2023-08-30T01:32:03.704Z",
+        "class": "History",
+        "subject": "Class D",
+        "created_at": "2023-08-30T06:55:17.341Z",
+        "updated_at": "2023-08-29T11:42:58.082Z",
+        "student_id": "7bd5062e-53ca-4215-a401-c1c21bf34428",
+        "teacher_id": "a3fba9c7-39c5-49d6-9865-12e58db092a4"
+      },
+      {
+        "id": "112a8b50-00e3-4bb5-bf9a-396040c90791",
+        "day_of_week": 27689,
+        "start_time": "2023-08-29T19:01:42.442Z",
+        "end_time": "2023-08-29T23:54:51.931Z",
+        "class": "Geography",
+        "subject": "Class E",
+        "created_at": "2023-08-30T05:51:19.228Z",
+        "updated_at": "2023-08-30T02:27:09.056Z",
+        "student_id": "7bd5062e-53ca-4215-a401-c1c21bf34428",
+        "teacher_id": "50150ef5-00b6-4f8d-87d8-dfbaf2951945"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6a734f9-e11c-4599-a473-591330fb669f",
+        "email": "Esteban_Walker@yahoo.com",
+        "firstName": "Sedrick",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51349606",
+        "tenantId": null
+      },
+      {
+        "reference": "a381ac4b-c014-4482-9b36-80cc140d4c76",
+        "email": "Jimmie17@yahoo.com",
+        "firstName": "Hester",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33993346",
+        "tenantId": null
+      },
+      {
+        "reference": "416b52f4-b09a-445c-ba1c-647853b39318",
+        "email": "Cale67@hotmail.com",
+        "firstName": "Angelita",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/588.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4220d75-4d3d-46ff-9e40-82badbb837e7",
+        "email": "Raphaelle.Schaefer78@gmail.com",
+        "firstName": "Gia",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78738171",
+        "tenantId": null
+      },
+      {
+        "reference": "98b73e98-7034-4d69-bfc7-b598c588b26f",
+        "email": "Darby64@hotmail.com",
+        "firstName": "Pietro",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76059908",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "1e1d0515-504f-44f0-a953-c42ca5e8fee7",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-30T08:29:55.299Z",
+        "updated_at": "2023-08-29T12:45:32.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9431baf-7051-453b-9cd9-912f16f3e836",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-30T04:42:35.047Z",
+        "updated_at": "2023-08-29T15:03:06.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8256da39-05d3-497b-a404-793eeec7f297",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T15:41:14.245Z",
+        "updated_at": "2023-08-29T18:05:09.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26211f6e-0844-45e7-adf2-949021f26842",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-29T19:28:22.367Z",
+        "updated_at": "2023-08-29T14:08:14.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9fee6c5-aacb-44fd-9427-eafabf168c8e",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T10:35:45.028Z",
+        "updated_at": "2023-08-30T07:47:57.557Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "9ef15223-87dd-479b-aeeb-3146d6e834b2",
+        "year": 68623,
+        "start_date": "2023-08-29T23:00:37.699Z",
+        "end_date": "2023-08-29T13:10:07.508Z",
+        "created_at": "2023-08-30T02:40:36.732Z",
+        "updated_at": "2023-08-30T05:18:06.547Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9828dea3-4265-432d-a005-6532ca27c0c5",
+        "year": 84523,
+        "start_date": "2023-08-29T16:35:05.719Z",
+        "end_date": "2023-08-29T17:26:38.715Z",
+        "created_at": "2023-08-29T16:39:10.099Z",
+        "updated_at": "2023-08-30T07:37:59.107Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "62f99676-0989-4404-bdc1-866cd95a9835",
+        "year": 57425,
+        "start_date": "2023-08-30T01:45:23.424Z",
+        "end_date": "2023-08-29T23:15:49.832Z",
+        "created_at": "2023-08-29T14:03:25.016Z",
+        "updated_at": "2023-08-29T14:05:38.832Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f6e99360-29e6-4f93-baaa-32eb2caf944a",
+        "year": 29778,
+        "start_date": "2023-08-29T13:33:04.489Z",
+        "end_date": "2023-08-30T05:36:10.033Z",
+        "created_at": "2023-08-29T18:33:31.967Z",
+        "updated_at": "2023-08-30T06:20:11.402Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95e93a06-a277-429b-9996-239df4e553f1",
+        "year": 8030,
+        "start_date": "2023-08-30T04:23:07.513Z",
+        "end_date": "2023-08-29T15:02:43.706Z",
+        "created_at": "2023-08-29T23:06:41.389Z",
+        "updated_at": "2023-08-30T08:56:59.760Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "7f5c5fb6-bbfe-46d1-ae93-227fbb50d062",
+        "class": "Grade 1",
+        "section": "A",
+        "fees": 61936,
+        "transport_details": "Bus",
+        "created_at": "2023-08-30T00:24:58.080Z",
+        "updated_at": "2023-08-29T17:29:25.149Z",
+        "academic_year_id": "f6e99360-29e6-4f93-baaa-32eb2caf944a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34bad50a-f1ef-4e76-84ae-2b5f6156f633",
+        "class": "Grade 2",
+        "section": "B",
+        "fees": 60217,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T18:20:50.125Z",
+        "updated_at": "2023-08-29T21:24:49.354Z",
+        "academic_year_id": "9ef15223-87dd-479b-aeeb-3146d6e834b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "229929f2-1b01-4d2f-ac08-79a74ec9c812",
+        "class": "Grade 3",
+        "section": "C",
+        "fees": 39846,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-29T19:02:22.181Z",
+        "updated_at": "2023-08-30T07:52:18.291Z",
+        "academic_year_id": "62f99676-0989-4404-bdc1-866cd95a9835",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbba9c32-0746-4ff3-a787-248d43e9b3de",
+        "class": "Grade 4",
+        "section": "D",
+        "fees": 92273,
+        "transport_details": "Walking",
+        "created_at": "2023-08-29T18:55:16.209Z",
+        "updated_at": "2023-08-29T15:37:19.860Z",
+        "academic_year_id": "9828dea3-4265-432d-a005-6532ca27c0c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10ad18a7-5548-4d73-b2e9-e8ea576c6fff",
+        "class": "Grade 5",
+        "section": "E",
+        "fees": 42010,
+        "transport_details": "Public Transport",
+        "created_at": "2023-08-30T00:11:06.101Z",
+        "updated_at": "2023-08-29T09:34:34.679Z",
+        "academic_year_id": "f6e99360-29e6-4f93-baaa-32eb2caf944a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "a5881853-279c-4fdb-8814-a3bf0fa42e64",
+        "day_of_week": 18216,
+        "start_time": "2023-08-29T11:11:45.084Z",
+        "end_time": "2023-08-29T21:25:23.395Z",
+        "class": "Class A",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T13:06:14.592Z",
+        "updated_at": "2023-08-29T20:54:08.873Z",
+        "student_id": "bbba9c32-0746-4ff3-a787-248d43e9b3de",
+        "teacher_id": "8256da39-05d3-497b-a404-793eeec7f297"
+      },
+      {
+        "id": "d698502d-ce6b-4521-9c34-fe1b23ad52f0",
+        "day_of_week": 70586,
+        "start_time": "2023-08-29T12:49:14.424Z",
+        "end_time": "2023-08-30T08:28:48.818Z",
+        "class": "Class B",
+        "subject": "Science",
+        "created_at": "2023-08-30T03:17:26.916Z",
+        "updated_at": "2023-08-29T23:41:39.044Z",
+        "student_id": "7f5c5fb6-bbfe-46d1-ae93-227fbb50d062",
+        "teacher_id": "1e1d0515-504f-44f0-a953-c42ca5e8fee7"
+      },
+      {
+        "id": "ece7c776-dba5-4da5-b57e-9ec8b8c9db18",
+        "day_of_week": 45574,
+        "start_time": "2023-08-30T08:04:59.221Z",
+        "end_time": "2023-08-30T08:00:07.338Z",
+        "class": "Class C",
+        "subject": "English",
+        "created_at": "2023-08-30T00:03:35.141Z",
+        "updated_at": "2023-08-29T17:50:44.556Z",
+        "student_id": "10ad18a7-5548-4d73-b2e9-e8ea576c6fff",
+        "teacher_id": "8256da39-05d3-497b-a404-793eeec7f297"
+      },
+      {
+        "id": "b05931f8-188d-48e2-9218-33dfa870ade3",
+        "day_of_week": 14274,
+        "start_time": "2023-08-29T17:26:52.784Z",
+        "end_time": "2023-08-30T06:39:59.721Z",
+        "class": "Class D",
+        "subject": "History",
+        "created_at": "2023-08-29T20:07:51.335Z",
+        "updated_at": "2023-08-29T18:34:26.023Z",
+        "student_id": "7f5c5fb6-bbfe-46d1-ae93-227fbb50d062",
+        "teacher_id": "26211f6e-0844-45e7-adf2-949021f26842"
+      },
+      {
+        "id": "8a88d000-0cf9-4da3-9cc8-7eb712ea2c6b",
+        "day_of_week": 67379,
+        "start_time": "2023-08-29T12:31:51.974Z",
+        "end_time": "2023-08-29T12:39:57.658Z",
+        "class": "Class E",
+        "subject": "Geography",
+        "created_at": "2023-08-30T02:19:41.989Z",
+        "updated_at": "2023-08-29T14:48:47.953Z",
+        "student_id": "7f5c5fb6-bbfe-46d1-ae93-227fbb50d062",
+        "teacher_id": "1e1d0515-504f-44f0-a953-c42ca5e8fee7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2f7a0c78-575a-4308-88e2-22a6205606f9",
+        "email": "Edgar_Kertzmann50@yahoo.com",
+        "firstName": "Kaci",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d0deb98-ef11-47a2-9229-70ae7eb1b2d9",
+        "email": "Therese14@yahoo.com",
+        "firstName": "Howard",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65f722ac-654d-4bd3-b749-6f1676146e3e",
+        "email": "Conner.Breitenberg@yahoo.com",
+        "firstName": "Sydni",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/38.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b94d453-51b9-40af-9553-8380a3f6cd4f",
+        "email": "Kamren.Fadel@yahoo.com",
+        "firstName": "Katrine",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42f26b89-4cb2-4e2d-aaf0-b574b95760d6",
+        "email": "Ian.Windler83@gmail.com",
+        "firstName": "Hilma",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61404958",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "a52a25a4-f4eb-4c92-9817-32c9246eb5f9",
+        "subject": "Mathematics",
+        "class_assigned": "Class 1A",
+        "created_at": "2023-08-30T04:22:36.340Z",
+        "updated_at": "2023-08-30T04:31:49.620Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84876704-b338-42c2-bdba-265e0bfe223f",
+        "subject": "Science",
+        "class_assigned": "Class 2B",
+        "created_at": "2023-08-29T22:39:51.958Z",
+        "updated_at": "2023-08-30T07:46:12.732Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a9dd9ab-60fa-43b5-aa3e-0456053cc53c",
+        "subject": "English",
+        "class_assigned": "Class 3C",
+        "created_at": "2023-08-29T10:24:42.117Z",
+        "updated_at": "2023-08-30T01:41:06.194Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de270c37-e9c0-49de-b68b-a9924cc36125",
+        "subject": "History",
+        "class_assigned": "Class 4D",
+        "created_at": "2023-08-29T18:08:31.567Z",
+        "updated_at": "2023-08-30T08:19:52.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94355730-8cd7-45bb-aab4-16c99800103b",
+        "subject": "Geography",
+        "class_assigned": "Class 5E",
+        "created_at": "2023-08-29T17:18:06.001Z",
+        "updated_at": "2023-08-29T23:26:15.783Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "d9793fb7-68f8-48c7-b8c8-1bd90ca5a3bf",
+        "year": 51497,
+        "start_date": "2023-08-29T11:18:20.817Z",
+        "end_date": "2023-08-29T20:52:44.112Z",
+        "created_at": "2023-08-29T11:20:30.348Z",
+        "updated_at": "2023-08-29T21:12:29.192Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3ff1e515-59f2-4084-b6b9-95ee68f719b3",
+        "year": 37830,
+        "start_date": "2023-08-29T23:38:08.390Z",
+        "end_date": "2023-08-29T15:29:05.689Z",
+        "created_at": "2023-08-29T18:52:59.785Z",
+        "updated_at": "2023-08-30T08:47:34.728Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc983b61-409d-481f-a081-48fb6b64d917",
+        "year": 48144,
+        "start_date": "2023-08-30T01:50:45.928Z",
+        "end_date": "2023-08-29T13:22:00.753Z",
+        "created_at": "2023-08-30T08:53:59.190Z",
+        "updated_at": "2023-08-30T05:08:10.069Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2159e8c4-2c8b-4cc6-ae3a-896d9f88b450",
+        "year": 17103,
+        "start_date": "2023-08-30T08:57:05.087Z",
+        "end_date": "2023-08-29T21:33:11.070Z",
+        "created_at": "2023-08-29T22:02:38.315Z",
+        "updated_at": "2023-08-30T04:37:14.670Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3aa1682e-dca4-48d8-afdb-efa14f63cf46",
+        "year": 21526,
+        "start_date": "2023-08-30T01:54:30.340Z",
+        "end_date": "2023-08-29T11:49:34.834Z",
+        "created_at": "2023-08-30T03:14:08.110Z",
+        "updated_at": "2023-08-29T17:15:04.605Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "a15395b2-420b-4492-8ac6-3956c6539cd1",
+        "class": "Class 1A",
+        "section": "Section A",
+        "fees": 77457,
+        "transport_details": "Bus",
+        "created_at": "2023-08-29T13:44:28.342Z",
+        "updated_at": "2023-08-29T15:08:34.605Z",
+        "academic_year_id": "3ff1e515-59f2-4084-b6b9-95ee68f719b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54957e4b-60b4-4b69-b3c5-44d21e6e6c84",
+        "class": "Class 2B",
+        "section": "Section B",
+        "fees": 43558,
+        "transport_details": "Car",
+        "created_at": "2023-08-30T04:25:24.913Z",
+        "updated_at": "2023-08-29T16:15:10.351Z",
+        "academic_year_id": "cc983b61-409d-481f-a081-48fb6b64d917",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99f52411-247e-4076-831d-ec08cd9a899d",
+        "class": "Class 3C",
+        "section": "Section C",
+        "fees": 36840,
+        "transport_details": "Walk",
+        "created_at": "2023-08-30T06:10:55.994Z",
+        "updated_at": "2023-08-30T03:12:56.317Z",
+        "academic_year_id": "3aa1682e-dca4-48d8-afdb-efa14f63cf46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e875f5ed-599b-4125-946a-ea338ad893ef",
+        "class": "Class 4D",
+        "section": "Section D",
+        "fees": 28281,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-29T14:50:05.620Z",
+        "updated_at": "2023-08-29T13:49:56.270Z",
+        "academic_year_id": "3ff1e515-59f2-4084-b6b9-95ee68f719b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc151463-3b20-4126-b989-869906d308f9",
+        "class": "Class 5E",
+        "section": "Section E",
+        "fees": 74676,
+        "transport_details": "Public Transport",
+        "created_at": "2023-08-29T09:16:46.979Z",
+        "updated_at": "2023-08-29T13:59:31.691Z",
+        "academic_year_id": "3aa1682e-dca4-48d8-afdb-efa14f63cf46",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "7e8345fe-6485-4c91-b9c2-b3d6fffba114",
+        "day_of_week": 64513,
+        "start_time": "2023-08-29T16:19:32.240Z",
+        "end_time": "2023-08-29T14:01:15.022Z",
+        "class": "Class 1A",
+        "subject": "Mathematics",
+        "created_at": "2023-08-30T08:20:05.420Z",
+        "updated_at": "2023-08-29T20:36:39.952Z",
+        "student_id": "e875f5ed-599b-4125-946a-ea338ad893ef",
+        "teacher_id": "de270c37-e9c0-49de-b68b-a9924cc36125"
+      },
+      {
+        "id": "ef91bb53-552d-475d-a951-86e897127636",
+        "day_of_week": 69156,
+        "start_time": "2023-08-29T18:07:25.994Z",
+        "end_time": "2023-08-30T08:22:26.624Z",
+        "class": "Class 2B",
+        "subject": "Science",
+        "created_at": "2023-08-30T01:47:58.346Z",
+        "updated_at": "2023-08-29T12:03:06.424Z",
+        "student_id": "e875f5ed-599b-4125-946a-ea338ad893ef",
+        "teacher_id": "84876704-b338-42c2-bdba-265e0bfe223f"
+      },
+      {
+        "id": "264c0eec-ee95-4bad-89c5-b0c48ea7d677",
+        "day_of_week": 68120,
+        "start_time": "2023-08-29T18:55:34.104Z",
+        "end_time": "2023-08-30T08:25:12.094Z",
+        "class": "Class 3C",
+        "subject": "English",
+        "created_at": "2023-08-30T04:25:58.661Z",
+        "updated_at": "2023-08-29T18:10:26.458Z",
+        "student_id": "99f52411-247e-4076-831d-ec08cd9a899d",
+        "teacher_id": "84876704-b338-42c2-bdba-265e0bfe223f"
+      },
+      {
+        "id": "aaf13d56-086d-4cf5-bb3c-4300495eb883",
+        "day_of_week": 84098,
+        "start_time": "2023-08-30T02:10:09.827Z",
+        "end_time": "2023-08-30T05:44:25.057Z",
+        "class": "Class 4D",
+        "subject": "History",
+        "created_at": "2023-08-30T04:24:08.638Z",
+        "updated_at": "2023-08-30T07:21:56.845Z",
+        "student_id": "54957e4b-60b4-4b69-b3c5-44d21e6e6c84",
+        "teacher_id": "84876704-b338-42c2-bdba-265e0bfe223f"
+      },
+      {
+        "id": "09d32033-3615-4200-ba13-46b139b07ebf",
+        "day_of_week": 98644,
+        "start_time": "2023-08-30T02:24:04.272Z",
+        "end_time": "2023-08-30T01:01:09.890Z",
+        "class": "Class 5E",
+        "subject": "Geography",
+        "created_at": "2023-08-29T11:55:49.644Z",
+        "updated_at": "2023-08-29T21:53:28.500Z",
+        "student_id": "fc151463-3b20-4126-b989-869906d308f9",
+        "teacher_id": "de270c37-e9c0-49de-b68b-a9924cc36125"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30208afb-3e3c-4ef2-8ced-c43160e8b581",
+        "email": "Neva_Mitchell@gmail.com",
+        "firstName": "Reta",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86488043",
+        "tenantId": null
+      },
+      {
+        "reference": "4c73cbb1-22be-4d34-9dc9-2c59baa88f74",
+        "email": "Salma.Cormier51@gmail.com",
+        "firstName": "Lue",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "74b702ef-5b8e-4fcb-8f1b-5aaa23565906",
+        "email": "Rene_Schumm70@gmail.com",
+        "firstName": "Ruben",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47506593",
+        "tenantId": null
+      },
+      {
+        "reference": "9dcd2d90-97ff-4335-b3fc-a9c9f4ec7e02",
+        "email": "Timmothy32@gmail.com",
+        "firstName": "Tyler",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f57ee50-ae8e-420c-9b53-b30ae8e4182e",
+        "email": "Jamie.West88@yahoo.com",
+        "firstName": "Harrison",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "833754fe-b938-4ea8-879b-965a53f2b6ed",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-29T20:57:54.480Z",
+        "updated_at": "2023-08-30T01:59:32.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b831ae7-8a87-4532-92ed-f068156e3da1",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-30T05:59:40.699Z",
+        "updated_at": "2023-08-30T00:15:53.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71c72f66-b9b5-496f-9adf-110e6a621833",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T11:38:03.125Z",
+        "updated_at": "2023-08-29T11:14:57.376Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f285cb4-65e0-4642-90a4-7fda94447625",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-30T04:43:08.578Z",
+        "updated_at": "2023-08-29T14:03:27.048Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1371c516-d8e8-42df-8102-6a3fa9a141bc",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-30T03:35:57.829Z",
+        "updated_at": "2023-08-30T04:29:11.218Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "9e5caefe-2274-410f-ab51-3c89889f070c",
+        "year": 88796,
+        "start_date": "2023-08-29T11:26:20.541Z",
+        "end_date": "2023-08-29T17:35:45.377Z",
+        "created_at": "2023-08-29T15:28:45.592Z",
+        "updated_at": "2023-08-29T20:47:58.888Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b78aa5d9-7bda-47c8-80d6-b0f94af20868",
+        "year": 49676,
+        "start_date": "2023-08-29T11:24:24.574Z",
+        "end_date": "2023-08-29T17:20:41.528Z",
+        "created_at": "2023-08-29T11:35:05.721Z",
+        "updated_at": "2023-08-29T20:39:46.055Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5b2f549a-dc9b-4a75-a18c-4f9a7035a400",
+        "year": 75663,
+        "start_date": "2023-08-29T11:41:42.382Z",
+        "end_date": "2023-08-30T08:55:25.462Z",
+        "created_at": "2023-08-29T21:27:42.204Z",
+        "updated_at": "2023-08-29T09:50:36.309Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "938e89da-ed04-4c8f-ae7d-6b35f37bd602",
+        "year": 44696,
+        "start_date": "2023-08-29T13:38:33.387Z",
+        "end_date": "2023-08-29T16:03:13.923Z",
+        "created_at": "2023-08-29T14:37:03.484Z",
+        "updated_at": "2023-08-29T23:08:11.369Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b722f70d-538a-48f3-88eb-e02ff3a527c5",
+        "year": 96075,
+        "start_date": "2023-08-29T22:55:00.837Z",
+        "end_date": "2023-08-29T09:39:14.844Z",
+        "created_at": "2023-08-29T18:33:53.403Z",
+        "updated_at": "2023-08-29T21:01:16.469Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "d4f17a7c-0c4c-4e99-822d-d6903046e324",
+        "class": "Grade 1",
+        "section": "A",
+        "fees": 45449,
+        "transport_details": "Bus",
+        "created_at": "2023-08-29T15:10:13.549Z",
+        "updated_at": "2023-08-29T17:13:18.347Z",
+        "academic_year_id": "9e5caefe-2274-410f-ab51-3c89889f070c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebeffd0-659d-4a2a-9711-207125cc402c",
+        "class": "Grade 2",
+        "section": "B",
+        "fees": 69900,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T17:24:25.407Z",
+        "updated_at": "2023-08-30T08:15:35.996Z",
+        "academic_year_id": "938e89da-ed04-4c8f-ae7d-6b35f37bd602",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7634a42a-7cdd-43db-9d98-0239a26bb119",
+        "class": "Grade 3",
+        "section": "C",
+        "fees": 11278,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-30T02:04:12.174Z",
+        "updated_at": "2023-08-29T12:30:03.248Z",
+        "academic_year_id": "5b2f549a-dc9b-4a75-a18c-4f9a7035a400",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d4faa6a-758b-4403-a21b-dd8c9c478479",
+        "class": "Grade 4",
+        "section": "D",
+        "fees": 64445,
+        "transport_details": "Walk",
+        "created_at": "2023-08-29T18:18:31.495Z",
+        "updated_at": "2023-08-30T03:52:58.487Z",
+        "academic_year_id": "938e89da-ed04-4c8f-ae7d-6b35f37bd602",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80afd3c9-3043-42d5-943a-60d7ee03fbf4",
+        "class": "Grade 5",
+        "section": "E",
+        "fees": 71588,
+        "transport_details": "Public Transportation",
+        "created_at": "2023-08-30T03:12:48.521Z",
+        "updated_at": "2023-08-30T02:19:39.214Z",
+        "academic_year_id": "5b2f549a-dc9b-4a75-a18c-4f9a7035a400",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "ac31eca0-dd32-4706-b45e-73543841973a",
+        "day_of_week": 59552,
+        "start_time": "2023-08-29T18:00:38.422Z",
+        "end_time": "2023-08-29T22:57:14.116Z",
+        "class": "Class A",
+        "subject": "Mathematics",
+        "created_at": "2023-08-30T02:25:05.246Z",
+        "updated_at": "2023-08-30T01:09:44.769Z",
+        "student_id": "d4f17a7c-0c4c-4e99-822d-d6903046e324",
+        "teacher_id": "71c72f66-b9b5-496f-9adf-110e6a621833"
+      },
+      {
+        "id": "e9ec8b84-5611-4700-822b-90c9e0f35b61",
+        "day_of_week": 62983,
+        "start_time": "2023-08-29T12:34:02.836Z",
+        "end_time": "2023-08-29T23:33:43.010Z",
+        "class": "Class B",
+        "subject": "Science",
+        "created_at": "2023-08-29T14:31:49.200Z",
+        "updated_at": "2023-08-29T09:23:38.003Z",
+        "student_id": "80afd3c9-3043-42d5-943a-60d7ee03fbf4",
+        "teacher_id": "1371c516-d8e8-42df-8102-6a3fa9a141bc"
+      },
+      {
+        "id": "8b8bb689-b34f-448c-8edc-82046c7d9dc2",
+        "day_of_week": 46419,
+        "start_time": "2023-08-29T14:16:43.818Z",
+        "end_time": "2023-08-29T14:24:20.899Z",
+        "class": "Class C",
+        "subject": "English",
+        "created_at": "2023-08-29T20:28:25.029Z",
+        "updated_at": "2023-08-30T08:57:18.971Z",
+        "student_id": "7634a42a-7cdd-43db-9d98-0239a26bb119",
+        "teacher_id": "6b831ae7-8a87-4532-92ed-f068156e3da1"
+      },
+      {
+        "id": "f22b753e-b80e-4e5c-883a-f459b1088231",
+        "day_of_week": 34433,
+        "start_time": "2023-08-30T02:53:40.914Z",
+        "end_time": "2023-08-29T18:18:14.557Z",
+        "class": "Class D",
+        "subject": "History",
+        "created_at": "2023-08-29T13:03:35.921Z",
+        "updated_at": "2023-08-29T10:21:00.260Z",
+        "student_id": "1ebeffd0-659d-4a2a-9711-207125cc402c",
+        "teacher_id": "0f285cb4-65e0-4642-90a4-7fda94447625"
+      },
+      {
+        "id": "8fb145a6-6d8c-4a1b-a22c-8651befac8b4",
+        "day_of_week": 57937,
+        "start_time": "2023-08-29T22:52:07.924Z",
+        "end_time": "2023-08-29T20:19:55.216Z",
+        "class": "Class E",
+        "subject": "Geography",
+        "created_at": "2023-08-29T13:34:14.650Z",
+        "updated_at": "2023-08-30T05:55:06.808Z",
+        "student_id": "80afd3c9-3043-42d5-943a-60d7ee03fbf4",
+        "teacher_id": "1371c516-d8e8-42df-8102-6a3fa9a141bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8191a99b-3353-4645-b4dd-3364f1e08f34",
+        "email": "Terrence16@gmail.com",
+        "firstName": "Thelma",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f390d69-771b-4a65-8ebf-be3e3556c542",
+        "email": "Curtis_Effertz@yahoo.com",
+        "firstName": "Lorena",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01a32c1f-207c-47f4-be03-1bf43f96c4d7",
+        "email": "Glenna.Jacobson92@yahoo.com",
+        "firstName": "Chandler",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8222403-8442-49ee-b7d4-1395be414fd9",
+        "email": "Bridie.Hane10@gmail.com",
+        "firstName": "Mauricio",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6418019",
+        "tenantId": null
+      },
+      {
+        "reference": "48288aa2-23c9-4e44-88b5-cc264f8d3d10",
+        "email": "Susanna_Padberg@yahoo.com",
+        "firstName": "Vilma",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86948822",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "626f6a8c-520e-47f9-91a8-8d51a035fb50",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-29T12:55:48.553Z",
+        "updated_at": "2023-08-30T06:15:25.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1734984-aca6-4980-b9fb-cf828452929e",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-29T20:38:26.313Z",
+        "updated_at": "2023-08-29T16:56:59.600Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4b61cf1-c41d-4050-ba34-d4a71835ec30",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-30T05:02:33.613Z",
+        "updated_at": "2023-08-29T11:23:38.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "652c55d1-f4f3-40ac-9c66-388617b052d8",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-29T21:18:49.140Z",
+        "updated_at": "2023-08-30T08:41:45.395Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a66406d-5de9-4b65-b1c1-ac866571b0c8",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T17:07:42.918Z",
+        "updated_at": "2023-08-30T04:09:47.982Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "1111ca9d-93f6-4ace-a2c6-4a720f33136d",
+        "year": 66315,
+        "start_date": "2023-08-29T09:54:37.496Z",
+        "end_date": "2023-08-29T09:48:44.379Z",
+        "created_at": "2023-08-30T05:02:24.034Z",
+        "updated_at": "2023-08-29T10:21:36.161Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50ed161a-6578-413b-9cef-5d05ff2ec021",
+        "year": 37122,
+        "start_date": "2023-08-29T19:07:23.724Z",
+        "end_date": "2023-08-30T01:32:25.601Z",
+        "created_at": "2023-08-30T09:06:48.342Z",
+        "updated_at": "2023-08-29T11:25:43.792Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "62f4b1eb-8e3b-4810-a965-5dcc5278dd42",
+        "year": 49060,
+        "start_date": "2023-08-29T21:29:47.736Z",
+        "end_date": "2023-08-29T21:17:29.133Z",
+        "created_at": "2023-08-29T16:30:15.197Z",
+        "updated_at": "2023-08-30T06:05:46.036Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11127b67-a9c9-4abd-8b41-bd207ee0f3b2",
+        "year": 31609,
+        "start_date": "2023-08-30T03:25:04.414Z",
+        "end_date": "2023-08-30T01:12:57.644Z",
+        "created_at": "2023-08-30T00:37:48.021Z",
+        "updated_at": "2023-08-29T19:53:48.184Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "07ffcb5c-2304-4dc5-96a5-0ea54159d453",
+        "year": 16648,
+        "start_date": "2023-08-29T10:08:23.500Z",
+        "end_date": "2023-08-29T19:42:03.132Z",
+        "created_at": "2023-08-30T07:37:26.321Z",
+        "updated_at": "2023-08-30T05:02:53.348Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "8784ea39-bf98-4edb-bcf8-c9ae5206e3ea",
+        "class": "Class 1",
+        "section": "Section A",
+        "fees": 66051,
+        "transport_details": "Bus",
+        "created_at": "2023-08-30T08:19:17.044Z",
+        "updated_at": "2023-08-29T20:47:30.515Z",
+        "academic_year_id": "50ed161a-6578-413b-9cef-5d05ff2ec021",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21e19b78-d08a-484e-8690-7175fc125842",
+        "class": "Class 2",
+        "section": "Section B",
+        "fees": 61334,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T14:39:32.321Z",
+        "updated_at": "2023-08-29T12:01:14.382Z",
+        "academic_year_id": "62f4b1eb-8e3b-4810-a965-5dcc5278dd42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa748e4b-cb71-4ab7-b3f7-64afd7907bf2",
+        "class": "Class 3",
+        "section": "Section C",
+        "fees": 30615,
+        "transport_details": "Walk",
+        "created_at": "2023-08-29T23:07:17.338Z",
+        "updated_at": "2023-08-29T23:10:49.149Z",
+        "academic_year_id": "11127b67-a9c9-4abd-8b41-bd207ee0f3b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efb346d6-ae3f-4d9d-84ae-690174a84bff",
+        "class": "Class 4",
+        "section": "Section D",
+        "fees": 25696,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-29T18:12:33.295Z",
+        "updated_at": "2023-08-30T04:03:13.249Z",
+        "academic_year_id": "50ed161a-6578-413b-9cef-5d05ff2ec021",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b1907cd-df44-4462-b5af-80fa3f783539",
+        "class": "Class 5",
+        "section": "Section E",
+        "fees": 60811,
+        "transport_details": "Train",
+        "created_at": "2023-08-29T11:01:02.192Z",
+        "updated_at": "2023-08-30T01:54:36.089Z",
+        "academic_year_id": "11127b67-a9c9-4abd-8b41-bd207ee0f3b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "43a864d9-6a68-4b45-af11-af1916912233",
+        "day_of_week": 15340,
+        "start_time": "2023-08-29T15:31:05.618Z",
+        "end_time": "2023-08-30T02:52:46.063Z",
+        "class": "Class 1",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T11:19:00.037Z",
+        "updated_at": "2023-08-29T21:14:41.973Z",
+        "student_id": "5b1907cd-df44-4462-b5af-80fa3f783539",
+        "teacher_id": "1a66406d-5de9-4b65-b1c1-ac866571b0c8"
+      },
+      {
+        "id": "ffc71786-b23d-4fc4-b3ce-130aca700c8d",
+        "day_of_week": 67131,
+        "start_time": "2023-08-30T02:20:22.892Z",
+        "end_time": "2023-08-30T06:54:21.047Z",
+        "class": "Class 2",
+        "subject": "Science",
+        "created_at": "2023-08-29T20:52:05.506Z",
+        "updated_at": "2023-08-30T02:35:57.707Z",
+        "student_id": "8784ea39-bf98-4edb-bcf8-c9ae5206e3ea",
+        "teacher_id": "e1734984-aca6-4980-b9fb-cf828452929e"
+      },
+      {
+        "id": "a15c39f8-59e7-4375-86a4-7b9e0d262e01",
+        "day_of_week": 30803,
+        "start_time": "2023-08-29T19:31:57.466Z",
+        "end_time": "2023-08-30T06:11:39.246Z",
+        "class": "Class 3",
+        "subject": "English",
+        "created_at": "2023-08-29T12:42:12.283Z",
+        "updated_at": "2023-08-29T09:57:27.475Z",
+        "student_id": "fa748e4b-cb71-4ab7-b3f7-64afd7907bf2",
+        "teacher_id": "1a66406d-5de9-4b65-b1c1-ac866571b0c8"
+      },
+      {
+        "id": "7fdee103-d1b7-4ad7-83b3-9ac729863c9f",
+        "day_of_week": 69522,
+        "start_time": "2023-08-29T21:45:56.270Z",
+        "end_time": "2023-08-29T19:57:02.813Z",
+        "class": "Class 4",
+        "subject": "History",
+        "created_at": "2023-08-30T06:02:56.992Z",
+        "updated_at": "2023-08-30T06:29:16.559Z",
+        "student_id": "fa748e4b-cb71-4ab7-b3f7-64afd7907bf2",
+        "teacher_id": "626f6a8c-520e-47f9-91a8-8d51a035fb50"
+      },
+      {
+        "id": "2c0c6eec-1e5b-4757-8592-bfc43c9bd496",
+        "day_of_week": 64968,
+        "start_time": "2023-08-29T16:49:02.921Z",
+        "end_time": "2023-08-29T17:07:47.935Z",
+        "class": "Class 5",
+        "subject": "Geography",
+        "created_at": "2023-08-29T16:31:54.633Z",
+        "updated_at": "2023-08-30T00:39:35.992Z",
+        "student_id": "efb346d6-ae3f-4d9d-84ae-690174a84bff",
+        "teacher_id": "626f6a8c-520e-47f9-91a8-8d51a035fb50"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b5289df5-d6bb-4696-8940-8fc7fb309000",
+        "email": "Jerrell.Denesik87@gmail.com",
+        "firstName": "Harold",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90103714",
+        "tenantId": null
+      },
+      {
+        "reference": "9b74472b-80b7-45e3-b1ce-3e68ce18d640",
+        "email": "Joanny_Wehner39@gmail.com",
+        "firstName": "Aaron",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38415293",
+        "tenantId": null
+      },
+      {
+        "reference": "a373e9ce-8184-4fd3-a769-7600fd71e5b1",
+        "email": "Mohamed_Nicolas89@yahoo.com",
+        "firstName": "Selena",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/149.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96c0a79a-a33f-43cc-87b7-d6d021cb56b8",
+        "email": "Pauline85@hotmail.com",
+        "firstName": "Art",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5622295",
+        "tenantId": null
+      },
+      {
+        "reference": "10ad281c-0aed-409d-8d2f-4bc56f6404c2",
+        "email": "Carlie_Leuschke81@hotmail.com",
+        "firstName": "Ross",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27398672",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "0ec75e57-729b-40d6-b1fe-e1fa9ce13f9c",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-29T19:20:59.406Z",
+        "updated_at": "2023-08-29T16:48:08.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5d77b5d-d040-425a-b3bd-44314ced0804",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-30T03:48:16.356Z",
+        "updated_at": "2023-08-29T18:57:35.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf97bf47-90a0-4c03-bb1f-20ce04057f41",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T09:45:11.826Z",
+        "updated_at": "2023-08-30T08:50:29.426Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaaedb3e-1ddc-458c-b83c-d686ccceff33",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-30T06:57:19.820Z",
+        "updated_at": "2023-08-29T23:32:50.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "381db968-fef1-4e87-a732-184f18fe0dce",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T19:14:22.187Z",
+        "updated_at": "2023-08-29T21:11:13.497Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "de8d028f-526e-473b-8c50-3fe4deb18da8",
+        "year": 52339,
+        "start_date": "2023-08-29T20:51:12.313Z",
+        "end_date": "2023-08-29T15:51:07.475Z",
+        "created_at": "2023-08-30T00:17:19.830Z",
+        "updated_at": "2023-08-30T05:42:51.162Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4b11a24a-3e01-4a22-82c7-3783c70d5fec",
+        "year": 90127,
+        "start_date": "2023-08-30T01:25:45.426Z",
+        "end_date": "2023-08-29T15:32:16.212Z",
+        "created_at": "2023-08-29T15:32:44.308Z",
+        "updated_at": "2023-08-29T18:45:45.718Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53aeccf8-567f-4908-a33a-306582db838c",
+        "year": 47997,
+        "start_date": "2023-08-29T18:07:56.706Z",
+        "end_date": "2023-08-30T06:34:17.471Z",
+        "created_at": "2023-08-30T03:33:46.120Z",
+        "updated_at": "2023-08-29T22:04:47.302Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eab29107-885a-460b-a09e-311b8a55e4bd",
+        "year": 61421,
+        "start_date": "2023-08-29T11:37:43.103Z",
+        "end_date": "2023-08-30T05:05:54.251Z",
+        "created_at": "2023-08-29T12:18:53.939Z",
+        "updated_at": "2023-08-29T14:45:40.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "62223e50-8d7c-442c-ad7e-301b9e89d927",
+        "year": 97801,
+        "start_date": "2023-08-30T05:00:36.873Z",
+        "end_date": "2023-08-29T17:07:45.358Z",
+        "created_at": "2023-08-29T10:55:54.388Z",
+        "updated_at": "2023-08-29T10:12:07.390Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "cb8c1668-7d30-453d-b1f8-214b93a5e401",
+        "class": "Class 1",
+        "section": "Section A",
+        "fees": 40466,
+        "transport_details": "Bus",
+        "created_at": "2023-08-29T12:53:51.908Z",
+        "updated_at": "2023-08-30T04:51:09.829Z",
+        "academic_year_id": "de8d028f-526e-473b-8c50-3fe4deb18da8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b761dbbc-f05f-402d-afb9-5bfe9659c35e",
+        "class": "Class 2",
+        "section": "Section B",
+        "fees": 27897,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T14:51:15.231Z",
+        "updated_at": "2023-08-29T22:30:13.434Z",
+        "academic_year_id": "62223e50-8d7c-442c-ad7e-301b9e89d927",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cc42479-8aa2-48ad-8696-6aca66c09bfa",
+        "class": "Class 3",
+        "section": "Section C",
+        "fees": 89792,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-30T05:59:57.636Z",
+        "updated_at": "2023-08-29T23:47:19.232Z",
+        "academic_year_id": "de8d028f-526e-473b-8c50-3fe4deb18da8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfe56bb5-0317-42dc-924d-32133e945b2d",
+        "class": "Class 4",
+        "section": "Section D",
+        "fees": 89789,
+        "transport_details": "Walking",
+        "created_at": "2023-08-29T20:09:58.604Z",
+        "updated_at": "2023-08-29T16:02:07.663Z",
+        "academic_year_id": "de8d028f-526e-473b-8c50-3fe4deb18da8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ed6ae94-75c5-4587-8bb8-2bc74ca66e8e",
+        "class": "Class 5",
+        "section": "Section E",
+        "fees": 88689,
+        "transport_details": "Train",
+        "created_at": "2023-08-30T05:28:27.580Z",
+        "updated_at": "2023-08-29T16:43:45.492Z",
+        "academic_year_id": "4b11a24a-3e01-4a22-82c7-3783c70d5fec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "47f085b0-69d6-4689-8ab6-cbc1e4459279",
+        "day_of_week": 47103,
+        "start_time": "2023-08-29T20:57:40.256Z",
+        "end_time": "2023-08-29T23:29:01.400Z",
+        "class": "Class 1",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T14:41:19.909Z",
+        "updated_at": "2023-08-30T03:51:04.094Z",
+        "student_id": "cb8c1668-7d30-453d-b1f8-214b93a5e401",
+        "teacher_id": "d5d77b5d-d040-425a-b3bd-44314ced0804"
+      },
+      {
+        "id": "c33625dd-1907-430e-b732-89d7f8ec6cc3",
+        "day_of_week": 74445,
+        "start_time": "2023-08-29T14:52:40.632Z",
+        "end_time": "2023-08-30T01:37:03.718Z",
+        "class": "Class 2",
+        "subject": "Science",
+        "created_at": "2023-08-30T06:57:39.473Z",
+        "updated_at": "2023-08-29T12:23:09.093Z",
+        "student_id": "b761dbbc-f05f-402d-afb9-5bfe9659c35e",
+        "teacher_id": "cf97bf47-90a0-4c03-bb1f-20ce04057f41"
+      },
+      {
+        "id": "68261036-ca81-470d-8ed6-c4e9f826f694",
+        "day_of_week": 60742,
+        "start_time": "2023-08-29T12:34:06.818Z",
+        "end_time": "2023-08-29T14:54:39.048Z",
+        "class": "Class 3",
+        "subject": "English",
+        "created_at": "2023-08-30T07:16:43.217Z",
+        "updated_at": "2023-08-30T04:04:27.383Z",
+        "student_id": "8cc42479-8aa2-48ad-8696-6aca66c09bfa",
+        "teacher_id": "cf97bf47-90a0-4c03-bb1f-20ce04057f41"
+      },
+      {
+        "id": "382afe8c-3aa3-4a08-b253-fa1371c6e029",
+        "day_of_week": 62747,
+        "start_time": "2023-08-30T04:05:09.759Z",
+        "end_time": "2023-08-29T14:21:50.220Z",
+        "class": "Class 4",
+        "subject": "History",
+        "created_at": "2023-08-30T04:56:45.580Z",
+        "updated_at": "2023-08-30T06:01:35.081Z",
+        "student_id": "4ed6ae94-75c5-4587-8bb8-2bc74ca66e8e",
+        "teacher_id": "0ec75e57-729b-40d6-b1fe-e1fa9ce13f9c"
+      },
+      {
+        "id": "e4e526ec-890e-4bc3-beed-f8c03afac14d",
+        "day_of_week": 46808,
+        "start_time": "2023-08-30T02:29:07.219Z",
+        "end_time": "2023-08-29T15:53:13.282Z",
+        "class": "Class 5",
+        "subject": "Geography",
+        "created_at": "2023-08-29T09:36:19.352Z",
+        "updated_at": "2023-08-29T19:32:32.178Z",
+        "student_id": "4ed6ae94-75c5-4587-8bb8-2bc74ca66e8e",
+        "teacher_id": "0ec75e57-729b-40d6-b1fe-e1fa9ce13f9c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "702fa6bd-93c6-4658-9736-e33194060d2c",
+        "email": "Otilia.Littel@hotmail.com",
+        "firstName": "Tony",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87516888",
+        "tenantId": null
+      },
+      {
+        "reference": "007f4b69-5f6f-4874-99c7-162fb6e8eb7f",
+        "email": "Van.Hegmann90@gmail.com",
+        "firstName": "Freddy",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10f9feaa-17c5-4f84-a3be-e9f8abb6fb5e",
+        "email": "Evangeline.Schamberger@hotmail.com",
+        "firstName": "Hubert",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6bea3301-cc8b-409e-aa09-d20a97d28ddf",
+        "email": "Alphonso_Goyette@yahoo.com",
+        "firstName": "Earl",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/756.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95d7ba97-20d1-46e6-80e4-4149cabaa542",
+        "email": "Melisa5@hotmail.com",
+        "firstName": "Janae",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31765716",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "5e964b59-c0da-4df0-9cac-65bd51c5b7ad",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-30T03:18:23.398Z",
+        "updated_at": "2023-08-29T13:50:12.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "948a0d80-255c-47ad-be66-a8555a387394",
+        "subject": "English",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-30T01:44:59.509Z",
+        "updated_at": "2023-08-30T01:47:48.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0e2ea55-c798-4166-a592-6baee7e5271d",
+        "subject": "Science",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T23:08:51.672Z",
+        "updated_at": "2023-08-29T14:30:06.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab2616e2-b65c-479b-814e-0fd35f233cb4",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-30T02:03:09.260Z",
+        "updated_at": "2023-08-29T19:31:16.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02a7773b-59e5-4a53-ab1d-914a84571dbb",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-29T17:19:54.511Z",
+        "updated_at": "2023-08-30T03:27:33.390Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "adc57158-4256-4a7c-b368-006ecdf0273f",
+        "year": 16253,
+        "start_date": "2023-08-30T01:28:18.243Z",
+        "end_date": "2023-08-29T14:37:32.668Z",
+        "created_at": "2023-08-29T21:33:45.461Z",
+        "updated_at": "2023-08-29T21:29:09.515Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb2e951f-e225-492b-bd03-b9707bc2a391",
+        "year": 7602,
+        "start_date": "2023-08-29T23:05:22.918Z",
+        "end_date": "2023-08-30T04:30:41.717Z",
+        "created_at": "2023-08-30T06:42:39.250Z",
+        "updated_at": "2023-08-29T13:09:17.839Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e0ce8a93-640a-4484-b6f0-977c71308c79",
+        "year": 89582,
+        "start_date": "2023-08-30T08:54:14.057Z",
+        "end_date": "2023-08-30T05:21:33.430Z",
+        "created_at": "2023-08-29T13:53:47.395Z",
+        "updated_at": "2023-08-29T14:33:41.343Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "352f104b-d249-486b-bab7-9f0220c34721",
+        "year": 48969,
+        "start_date": "2023-08-29T10:00:38.683Z",
+        "end_date": "2023-08-30T09:09:36.261Z",
+        "created_at": "2023-08-30T04:31:35.978Z",
+        "updated_at": "2023-08-29T19:17:43.218Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "449c816a-7262-4e6d-8b98-fa3d446d9e30",
+        "year": 51537,
+        "start_date": "2023-08-30T08:44:55.078Z",
+        "end_date": "2023-08-29T19:47:07.395Z",
+        "created_at": "2023-08-29T16:51:02.019Z",
+        "updated_at": "2023-08-29T22:44:57.306Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "0d75c785-41a4-4822-af9a-4a909dcaf3f4",
+        "class": "Grade 1",
+        "section": "Section A",
+        "fees": 39213,
+        "transport_details": "Bus",
+        "created_at": "2023-08-30T00:10:06.777Z",
+        "updated_at": "2023-08-29T09:21:55.495Z",
+        "academic_year_id": "352f104b-d249-486b-bab7-9f0220c34721",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9ebf7b5-2cad-4dcd-b3cf-b286ff48d6ab",
+        "class": "Grade 2",
+        "section": "Section B",
+        "fees": 31002,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T17:15:26.500Z",
+        "updated_at": "2023-08-29T22:06:15.648Z",
+        "academic_year_id": "e0ce8a93-640a-4484-b6f0-977c71308c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a705dd-a204-4557-a5de-2b8c7db9a4e9",
+        "class": "Grade 3",
+        "section": "Section C",
+        "fees": 70590,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-30T00:26:24.422Z",
+        "updated_at": "2023-08-30T00:49:15.365Z",
+        "academic_year_id": "e0ce8a93-640a-4484-b6f0-977c71308c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a45fafc7-e229-420a-8ad3-cd55cb936f51",
+        "class": "Grade 4",
+        "section": "Section D",
+        "fees": 12692,
+        "transport_details": "Walking",
+        "created_at": "2023-08-30T06:37:49.053Z",
+        "updated_at": "2023-08-29T17:40:42.574Z",
+        "academic_year_id": "e0ce8a93-640a-4484-b6f0-977c71308c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d018a946-d1af-4248-a5eb-6614373a5abc",
+        "class": "Grade 5",
+        "section": "Section E",
+        "fees": 14231,
+        "transport_details": "Public Transportation",
+        "created_at": "2023-08-29T10:09:58.803Z",
+        "updated_at": "2023-08-29T16:53:41.561Z",
+        "academic_year_id": "352f104b-d249-486b-bab7-9f0220c34721",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "039b4045-7ae5-4a24-b402-e0f5fcaca1ef",
+        "day_of_week": 51453,
+        "start_time": "2023-08-30T00:09:38.110Z",
+        "end_time": "2023-08-30T08:08:59.267Z",
+        "class": "Mathematics",
+        "subject": "Class A",
+        "created_at": "2023-08-30T09:05:52.432Z",
+        "updated_at": "2023-08-29T16:43:12.731Z",
+        "student_id": "d018a946-d1af-4248-a5eb-6614373a5abc",
+        "teacher_id": "d0e2ea55-c798-4166-a592-6baee7e5271d"
+      },
+      {
+        "id": "d1c738fc-0c78-4245-88d7-943c330b4b4c",
+        "day_of_week": 11701,
+        "start_time": "2023-08-29T22:41:57.464Z",
+        "end_time": "2023-08-29T20:06:45.809Z",
+        "class": "English",
+        "subject": "Class B",
+        "created_at": "2023-08-29T09:21:30.789Z",
+        "updated_at": "2023-08-29T19:12:54.833Z",
+        "student_id": "a45fafc7-e229-420a-8ad3-cd55cb936f51",
+        "teacher_id": "948a0d80-255c-47ad-be66-a8555a387394"
+      },
+      {
+        "id": "a9360417-c460-48d8-ab06-28cd276df875",
+        "day_of_week": 14120,
+        "start_time": "2023-08-30T04:30:59.309Z",
+        "end_time": "2023-08-29T11:53:28.211Z",
+        "class": "Science",
+        "subject": "Class C",
+        "created_at": "2023-08-29T20:39:38.922Z",
+        "updated_at": "2023-08-29T13:12:42.804Z",
+        "student_id": "0d75c785-41a4-4822-af9a-4a909dcaf3f4",
+        "teacher_id": "5e964b59-c0da-4df0-9cac-65bd51c5b7ad"
+      },
+      {
+        "id": "e85bbfe5-510a-4b2a-b767-375494a7a85d",
+        "day_of_week": 7966,
+        "start_time": "2023-08-29T21:56:48.614Z",
+        "end_time": "2023-08-30T00:40:21.553Z",
+        "class": "History",
+        "subject": "Class D",
+        "created_at": "2023-08-29T23:41:35.569Z",
+        "updated_at": "2023-08-30T01:58:08.871Z",
+        "student_id": "d018a946-d1af-4248-a5eb-6614373a5abc",
+        "teacher_id": "ab2616e2-b65c-479b-814e-0fd35f233cb4"
+      },
+      {
+        "id": "33c0abf8-2db3-43fe-88cf-9158646cbd83",
+        "day_of_week": 56445,
+        "start_time": "2023-08-29T11:14:02.628Z",
+        "end_time": "2023-08-29T20:15:24.058Z",
+        "class": "Geography",
+        "subject": "Class E",
+        "created_at": "2023-08-30T04:49:43.610Z",
+        "updated_at": "2023-08-30T08:29:30.774Z",
+        "student_id": "a45fafc7-e229-420a-8ad3-cd55cb936f51",
+        "teacher_id": "d0e2ea55-c798-4166-a592-6baee7e5271d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c470759b-e16b-42b6-a7c3-47a58ad770d0",
+        "email": "Leann.Schmitt@hotmail.com",
+        "firstName": "Tiffany",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7732655",
+        "tenantId": null
+      },
+      {
+        "reference": "a475d81b-e155-40c0-b8e2-4fcd6143d93d",
+        "email": "Rae_Pfeffer@gmail.com",
+        "firstName": "Corrine",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44488150",
+        "tenantId": null
+      },
+      {
+        "reference": "9c304366-ad60-4cc4-a269-cbd02a6c0930",
+        "email": "Liliane.Skiles23@yahoo.com",
+        "firstName": "Alexzander",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31621755",
+        "tenantId": null
+      },
+      {
+        "reference": "f52e1995-20a9-4fb3-af57-2172341a27bd",
+        "email": "Aimee_Rowe@hotmail.com",
+        "firstName": "Alayna",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/694.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "356ce629-58cb-484f-b9a6-a7f90af2d532",
+        "email": "Tianna39@gmail.com",
+        "firstName": "Guadalupe",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35498919",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "38f27b85-2224-4336-b04a-fec8804671c7",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-30T01:51:44.946Z",
+        "updated_at": "2023-08-29T14:21:37.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78ac6797-03b8-49ea-b51b-d0243c466d7e",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-29T11:09:47.107Z",
+        "updated_at": "2023-08-30T00:17:26.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6bc6a86-f064-40ab-9c1a-75f4de078848",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T20:41:40.726Z",
+        "updated_at": "2023-08-30T02:56:12.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33c34899-5d17-45b5-99dc-c0a7ca70469a",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-29T13:30:07.316Z",
+        "updated_at": "2023-08-30T08:45:56.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08f23360-dbe7-4c98-b733-9082f9b6ac7d",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-30T07:23:13.697Z",
+        "updated_at": "2023-08-30T05:36:37.614Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "6cab55a9-e3c6-4265-9dc0-fd647c96bdc3",
+        "year": 77112,
+        "start_date": "2023-08-29T18:55:28.637Z",
+        "end_date": "2023-08-29T19:10:35.538Z",
+        "created_at": "2023-08-29T11:13:50.404Z",
+        "updated_at": "2023-08-30T00:48:23.033Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8fdd026a-8a24-4dec-a9d1-5e75f389ea57",
+        "year": 56074,
+        "start_date": "2023-08-29T18:34:44.741Z",
+        "end_date": "2023-08-29T10:44:27.592Z",
+        "created_at": "2023-08-29T12:11:21.165Z",
+        "updated_at": "2023-08-29T18:48:48.519Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89501b1f-922b-4c83-ad5f-426f22a77c12",
+        "year": 26237,
+        "start_date": "2023-08-29T15:12:01.572Z",
+        "end_date": "2023-08-30T01:07:07.043Z",
+        "created_at": "2023-08-29T23:58:42.371Z",
+        "updated_at": "2023-08-29T12:37:59.543Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8f63a970-f8e7-41e1-9ccc-4cafaf97f5ef",
+        "year": 78201,
+        "start_date": "2023-08-29T20:45:28.603Z",
+        "end_date": "2023-08-29T19:11:09.766Z",
+        "created_at": "2023-08-29T10:49:50.721Z",
+        "updated_at": "2023-08-30T06:58:08.592Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9a2bcd31-ef1d-4e16-8247-406282eed642",
+        "year": 85538,
+        "start_date": "2023-08-29T13:59:59.395Z",
+        "end_date": "2023-08-29T15:46:35.695Z",
+        "created_at": "2023-08-29T20:31:05.591Z",
+        "updated_at": "2023-08-30T08:50:49.822Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "b0ddb97a-6b9b-4cd0-b86a-f7f0123d64ae",
+        "class": "Class 1",
+        "section": "Section A",
+        "fees": 61868,
+        "transport_details": "Bus",
+        "created_at": "2023-08-30T00:38:10.273Z",
+        "updated_at": "2023-08-29T17:14:51.152Z",
+        "academic_year_id": "89501b1f-922b-4c83-ad5f-426f22a77c12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7424fc8-53bc-4f17-b746-b89f4fec7bf9",
+        "class": "Class 2",
+        "section": "Section B",
+        "fees": 430,
+        "transport_details": "Van",
+        "created_at": "2023-08-29T16:12:20.348Z",
+        "updated_at": "2023-08-29T13:48:08.868Z",
+        "academic_year_id": "6cab55a9-e3c6-4265-9dc0-fd647c96bdc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a38f8628-39af-4773-a8d4-b6e5094a5acf",
+        "class": "Class 3",
+        "section": "Section C",
+        "fees": 1860,
+        "transport_details": "Car",
+        "created_at": "2023-08-29T09:40:15.398Z",
+        "updated_at": "2023-08-30T06:29:07.782Z",
+        "academic_year_id": "8fdd026a-8a24-4dec-a9d1-5e75f389ea57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60aa812a-0a52-492a-ba3c-06f97e7a3785",
+        "class": "Class 4",
+        "section": "Section D",
+        "fees": 17863,
+        "transport_details": "Walking",
+        "created_at": "2023-08-29T12:06:43.782Z",
+        "updated_at": "2023-08-29T22:10:57.692Z",
+        "academic_year_id": "9a2bcd31-ef1d-4e16-8247-406282eed642",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cab283c-c8e1-4c3b-a285-a821c422905c",
+        "class": "Class 5",
+        "section": "Section E",
+        "fees": 65909,
+        "transport_details": "Cycling",
+        "created_at": "2023-08-30T06:02:37.470Z",
+        "updated_at": "2023-08-30T00:18:59.859Z",
+        "academic_year_id": "89501b1f-922b-4c83-ad5f-426f22a77c12",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "48af562d-5c45-4810-9fc8-eafc7b5601af",
+        "day_of_week": 16799,
+        "start_time": "2023-08-29T11:53:08.520Z",
+        "end_time": "2023-08-29T14:38:31.672Z",
+        "class": "Class 1",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T15:13:12.487Z",
+        "updated_at": "2023-08-30T04:49:33.927Z",
+        "student_id": "b0ddb97a-6b9b-4cd0-b86a-f7f0123d64ae",
+        "teacher_id": "38f27b85-2224-4336-b04a-fec8804671c7"
+      },
+      {
+        "id": "b352f973-40b5-4946-b31c-0d59cd6820a5",
+        "day_of_week": 94437,
+        "start_time": "2023-08-30T07:34:32.709Z",
+        "end_time": "2023-08-30T07:07:33.681Z",
+        "class": "Class 2",
+        "subject": "Science",
+        "created_at": "2023-08-30T04:17:40.274Z",
+        "updated_at": "2023-08-29T21:21:30.692Z",
+        "student_id": "60aa812a-0a52-492a-ba3c-06f97e7a3785",
+        "teacher_id": "38f27b85-2224-4336-b04a-fec8804671c7"
+      },
+      {
+        "id": "c357d5d0-2aee-4719-8709-427d86692337",
+        "day_of_week": 19023,
+        "start_time": "2023-08-29T19:43:53.619Z",
+        "end_time": "2023-08-30T08:27:57.783Z",
+        "class": "Class 3",
+        "subject": "English",
+        "created_at": "2023-08-30T07:39:37.502Z",
+        "updated_at": "2023-08-29T21:17:19.139Z",
+        "student_id": "f7424fc8-53bc-4f17-b746-b89f4fec7bf9",
+        "teacher_id": "33c34899-5d17-45b5-99dc-c0a7ca70469a"
+      },
+      {
+        "id": "b35fea6a-624e-4a4a-90a4-b4aec8308570",
+        "day_of_week": 36021,
+        "start_time": "2023-08-30T02:59:20.043Z",
+        "end_time": "2023-08-30T00:40:49.037Z",
+        "class": "Class 4",
+        "subject": "History",
+        "created_at": "2023-08-30T03:30:02.307Z",
+        "updated_at": "2023-08-30T00:31:16.363Z",
+        "student_id": "a38f8628-39af-4773-a8d4-b6e5094a5acf",
+        "teacher_id": "08f23360-dbe7-4c98-b733-9082f9b6ac7d"
+      },
+      {
+        "id": "7edd38e8-4930-4d98-8ebc-f4afa8cf4391",
+        "day_of_week": 64327,
+        "start_time": "2023-08-30T00:13:46.049Z",
+        "end_time": "2023-08-29T17:05:21.900Z",
+        "class": "Class 5",
+        "subject": "Geography",
+        "created_at": "2023-08-30T04:49:04.035Z",
+        "updated_at": "2023-08-30T05:09:41.703Z",
+        "student_id": "a38f8628-39af-4773-a8d4-b6e5094a5acf",
+        "teacher_id": "08f23360-dbe7-4c98-b733-9082f9b6ac7d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b3254786-d986-4d3d-81fe-0e9971279500",
+        "email": "Orlo_Yost10@gmail.com",
+        "firstName": "Kirk",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10621357",
+        "tenantId": null
+      },
+      {
+        "reference": "07e6dfe3-f530-4253-9b4c-c7a81121d757",
+        "email": "Alana.Moen93@gmail.com",
+        "firstName": "Alysson",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb2c9204-0863-4880-a95d-f9272119bd35",
+        "email": "Demetrius.DuBuque-Hessel@hotmail.com",
+        "firstName": "Alexa",
+        "lastName": "Rice-Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90015084",
+        "tenantId": null
+      },
+      {
+        "reference": "5827f177-6bcc-4929-acb5-02b3dbf6ff64",
+        "email": "Kacey.Zemlak35@yahoo.com",
+        "firstName": "Woodrow",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67955567",
+        "tenantId": null
+      },
+      {
+        "reference": "9e9a9a4d-f9cf-4237-bd08-5a3efbe6afc5",
+        "email": "Olen38@yahoo.com",
+        "firstName": "Serena",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73017277",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "fca4bc4e-5b38-4b8d-b7a0-71904ed67206",
+        "subject": "Mathematics",
+        "class_assigned": "Class A",
+        "created_at": "2023-08-29T16:17:48.416Z",
+        "updated_at": "2023-08-29T12:14:49.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0d8fdd6-6454-4376-96ee-8792565b9812",
+        "subject": "Science",
+        "class_assigned": "Class B",
+        "created_at": "2023-08-29T10:56:52.147Z",
+        "updated_at": "2023-08-29T20:41:37.057Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1708801-e198-4125-9c3a-79ced96d4a34",
+        "subject": "English",
+        "class_assigned": "Class C",
+        "created_at": "2023-08-29T20:49:20.157Z",
+        "updated_at": "2023-08-29T16:20:38.381Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "886b7290-fa11-48c2-858c-fb737bdb927b",
+        "subject": "History",
+        "class_assigned": "Class D",
+        "created_at": "2023-08-30T06:53:37.970Z",
+        "updated_at": "2023-08-30T05:51:24.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76e410f5-7103-44cd-bfb0-f5b006b7bb5f",
+        "subject": "Geography",
+        "class_assigned": "Class E",
+        "created_at": "2023-08-30T03:44:21.701Z",
+        "updated_at": "2023-08-29T10:46:43.947Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "academic_year": [
+      {
+        "id": "70bc6844-ce18-48c7-8897-298404f30d72",
+        "year": 55976,
+        "start_date": "2023-08-29T10:24:00.185Z",
+        "end_date": "2023-08-30T06:29:32.702Z",
+        "created_at": "2023-08-30T06:52:37.628Z",
+        "updated_at": "2023-08-29T20:19:53.701Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e2d0ecc6-e747-48a0-846e-cad472378dbd",
+        "year": 56348,
+        "start_date": "2023-08-30T07:22:16.515Z",
+        "end_date": "2023-08-30T07:02:20.024Z",
+        "created_at": "2023-08-29T09:29:06.742Z",
+        "updated_at": "2023-08-30T01:32:54.407Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "692fa8b6-b7e8-4eae-84b3-40eb645e1d8a",
+        "year": 89409,
+        "start_date": "2023-08-30T03:57:29.859Z",
+        "end_date": "2023-08-29T14:55:56.541Z",
+        "created_at": "2023-08-29T17:20:24.505Z",
+        "updated_at": "2023-08-29T20:11:08.792Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b9e04ed4-2370-4e9b-8a1a-a51ec36df53b",
+        "year": 52590,
+        "start_date": "2023-08-29T15:35:16.716Z",
+        "end_date": "2023-08-29T23:32:23.286Z",
+        "created_at": "2023-08-30T04:13:33.966Z",
+        "updated_at": "2023-08-29T15:18:15.434Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7180330-af90-4a55-9607-eb74efa3730d",
+        "year": 19343,
+        "start_date": "2023-08-29T12:44:54.514Z",
+        "end_date": "2023-08-29T22:01:54.734Z",
+        "created_at": "2023-08-29T16:35:04.171Z",
+        "updated_at": "2023-08-29T13:03:47.074Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "d69ba5e0-eb75-44fd-998f-5b31b9b15abd",
+        "class": "Grade 1",
+        "section": "Section A",
+        "fees": 83700,
+        "transport_details": "Bus",
+        "created_at": "2023-08-30T05:25:15.144Z",
+        "updated_at": "2023-08-29T23:58:05.084Z",
+        "academic_year_id": "f7180330-af90-4a55-9607-eb74efa3730d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26d8609a-8207-49f0-a8b9-3bd360c6cb52",
+        "class": "Grade 2",
+        "section": "Section B",
+        "fees": 78039,
+        "transport_details": "Car",
+        "created_at": "2023-08-30T05:51:40.437Z",
+        "updated_at": "2023-08-29T10:21:48.000Z",
+        "academic_year_id": "b9e04ed4-2370-4e9b-8a1a-a51ec36df53b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d02ede7-c3bf-4569-a08e-e66bd1a7e20c",
+        "class": "Grade 3",
+        "section": "Section C",
+        "fees": 88446,
+        "transport_details": "Bicycle",
+        "created_at": "2023-08-30T01:07:59.458Z",
+        "updated_at": "2023-08-30T02:26:39.254Z",
+        "academic_year_id": "f7180330-af90-4a55-9607-eb74efa3730d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "826fa0eb-55dc-4a53-b461-591154c8a5f3",
+        "class": "Grade 4",
+        "section": "Section D",
+        "fees": 25259,
+        "transport_details": "Walking",
+        "created_at": "2023-08-30T09:01:51.364Z",
+        "updated_at": "2023-08-29T09:59:08.742Z",
+        "academic_year_id": "f7180330-af90-4a55-9607-eb74efa3730d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8afbf9e-a514-48d9-b09b-f7eb55938094",
+        "class": "Grade 5",
+        "section": "Section E",
+        "fees": 75912,
+        "transport_details": "Public Transportation",
+        "created_at": "2023-08-30T02:00:12.984Z",
+        "updated_at": "2023-08-30T01:53:07.051Z",
+        "academic_year_id": "70bc6844-ce18-48c7-8897-298404f30d72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "966b8cd2-e63a-4760-a816-196ac6a5b08c",
+        "day_of_week": 68989,
+        "start_time": "2023-08-29T09:29:31.796Z",
+        "end_time": "2023-08-30T08:35:21.018Z",
+        "class": "Class A",
+        "subject": "Mathematics",
+        "created_at": "2023-08-29T20:17:06.100Z",
+        "updated_at": "2023-08-29T12:52:51.108Z",
+        "student_id": "26d8609a-8207-49f0-a8b9-3bd360c6cb52",
+        "teacher_id": "fca4bc4e-5b38-4b8d-b7a0-71904ed67206"
+      },
+      {
+        "id": "f7d972cb-eed1-454e-84b4-a1572440e8fb",
+        "day_of_week": 10803,
+        "start_time": "2023-08-29T13:47:33.311Z",
+        "end_time": "2023-08-30T08:28:12.937Z",
+        "class": "Class B",
+        "subject": "Science",
+        "created_at": "2023-08-29T12:13:28.206Z",
+        "updated_at": "2023-08-29T11:02:00.808Z",
+        "student_id": "26d8609a-8207-49f0-a8b9-3bd360c6cb52",
+        "teacher_id": "a0d8fdd6-6454-4376-96ee-8792565b9812"
+      },
+      {
+        "id": "82ead9e2-422d-49ca-bb9e-e108ccaea6b1",
+        "day_of_week": 92866,
+        "start_time": "2023-08-29T13:32:33.050Z",
+        "end_time": "2023-08-30T05:21:41.743Z",
+        "class": "Class C",
+        "subject": "English",
+        "created_at": "2023-08-29T21:31:57.331Z",
+        "updated_at": "2023-08-29T17:11:53.162Z",
+        "student_id": "8d02ede7-c3bf-4569-a08e-e66bd1a7e20c",
+        "teacher_id": "886b7290-fa11-48c2-858c-fb737bdb927b"
+      },
+      {
+        "id": "08aa2449-c739-409d-99c2-78d6c5415104",
+        "day_of_week": 52525,
+        "start_time": "2023-08-30T00:30:47.151Z",
+        "end_time": "2023-08-30T00:25:21.950Z",
+        "class": "Class D",
+        "subject": "History",
+        "created_at": "2023-08-29T15:31:04.346Z",
+        "updated_at": "2023-08-29T22:43:05.708Z",
+        "student_id": "826fa0eb-55dc-4a53-b461-591154c8a5f3",
+        "teacher_id": "e1708801-e198-4125-9c3a-79ced96d4a34"
+      },
+      {
+        "id": "7dd9d4a8-d172-4890-b512-3cd4f95e2c99",
+        "day_of_week": 22766,
+        "start_time": "2023-08-30T03:22:31.229Z",
+        "end_time": "2023-08-30T06:35:22.492Z",
+        "class": "Class E",
+        "subject": "Geography",
+        "created_at": "2023-08-29T17:02:35.890Z",
+        "updated_at": "2023-08-30T07:00:11.522Z",
+        "student_id": "b8afbf9e-a514-48d9-b09b-f7eb55938094",
+        "teacher_id": "a0d8fdd6-6454-4376-96ee-8792565b9812"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6db52670-78d2-49ca-8dbf-4fc763a6bec7",
+        "email": "Graciela.Nitzsche35@yahoo.com",
+        "firstName": "Sterling",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9466659",
+        "tenantId": null
+      },
+      {
+        "reference": "85764ed4-b0df-48b4-ac11-56581d55da19",
+        "email": "Annabell.Haag35@gmail.com",
+        "firstName": "Marge",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42722906",
+        "tenantId": null
+      },
+      {
+        "reference": "9513a5f4-83de-45a2-9d08-2ee0b6dcc52e",
+        "email": "Giovani34@hotmail.com",
+        "firstName": "Ambrose",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87131985",
+        "tenantId": null
+      },
+      {
+        "reference": "ce670ec9-6eca-4bc4-92d5-49145a5efb3d",
+        "email": "Nestor.Legros@yahoo.com",
+        "firstName": "Oscar",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/403.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc5130e-62e6-4589-9e8c-6601b2eacb9b",
+        "email": "Olaf43@gmail.com",
+        "firstName": "Johanna",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84039368",
+        "tenantId": null
+      }
+    ]
+  }
+]
